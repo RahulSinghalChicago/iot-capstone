@@ -230,8 +230,8 @@ class _HomeScreenState extends State<HomeScreen> {
           region: region,
           host: "s3.$region.amazonaws.com",
           bucketId: bucketId,
-          accessKey: "AKIAI3AI7EVZFZE61234",
-          secretKey: "+X4L+EOs0+XZnMLt4IFKgLx71IoPKPLIJK7O1234");
+          accessKey: "",
+          secretKey: "");
 
       final response = await s3client.getObject(key);
       setState(() {
